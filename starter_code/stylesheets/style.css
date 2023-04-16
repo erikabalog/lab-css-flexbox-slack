@@ -8,3 +8,119 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+    background-color: #540B51;
+}
+
+.body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.topNavMenu {
+    display: flex;
+    justify-content: space-between;
+    height: 5px;
+    flex-direction: row;
+}
+
+.slackLogo {
+    width: 80px;
+    height: auto;
+    align-items: start;
+    padding: 2em 1em 1em;
+}
+
+.icon {
+    padding: 2 0.2 1;
+}
+
+.hidden {
+    border: none;
+    margin-left: 1em;
+    background-color: #540B51;
+}
+
+.title {
+    text-align: center;
+    width: auto;
+    color: white;
+}
+
+.content p {
+    color: white;
+}
+
+.content span {
+    color: #ECB12F;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Email {
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Google {
+    display: flex;
+    background-color: #4285F4;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+}
+
+.GoogleLogo {
+    background-color: white;
+    color: white;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.Google span {
+    background-color: #4285F4;
+    color: white;
+    text-align: center;
+    margin-left: 4em;
+}
+
+.ImageContainer {
+    background-color: #540B51;
+}
+
+.MainImg {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logoImg {
+    align-items: center;
+    height: auto;
+    width: 50px;
+    padding: 1em;
+}
+
+
+/* Mobile */
+@media(width < 768px){
+
+    .hidden {
+        display: none;
+    }
+}
